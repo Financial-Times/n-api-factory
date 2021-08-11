@@ -39,7 +39,7 @@
     "snyk": "^1.167.2"
   },
   "engines": {
-    "node": ">=6.1.0"
+    "node": "12.x"
   },
   "husky": {
     "hooks": {
