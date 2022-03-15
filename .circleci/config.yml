@@ -108,6 +108,7 @@ jobs:
           destination: test-results
 
   publish:
+    context: npm-publish-token
     <<: *container_config_node
     steps:
       - *attach_workspace
